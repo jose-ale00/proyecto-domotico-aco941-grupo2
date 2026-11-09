@@ -1,0 +1,6 @@
+{
+  "temperatura_max": 30,
+  "humedad_min": 30,
+  "gas_max": 600,
+  "nota": "Valores iniciales. Se ajustan desde el dashboard (se guardan en memoria de Node-RED)."
+}

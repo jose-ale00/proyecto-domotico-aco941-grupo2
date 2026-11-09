@@ -1,0 +1,11 @@
+{
+  "broker": "broker.emqx.io",
+  "puerto": 1883,
+  "autenticacion": false,
+  "prefijo": "aco941/PREFIJO_EQUIPO",
+  "topics": {
+    "telemetria": "<prefijo>/sensores/{temperatura|humedad|luminosidad|gas|distancia|movimiento}",
+    "comandos": "<prefijo>/actuadores/{ventilador|luz|puerta|alarma}",
+    "estado": "<prefijo>/estado/{ventilador|luz|puerta|alarma}"
+  }
+}
